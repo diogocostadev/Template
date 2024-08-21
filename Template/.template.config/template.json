@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Diogo Costa",
+  "classifications": [ "WebAPI", "ASP.NET Core", "Custom", "C#"],
+  "identity": "DiogoCosta.WebApiTemplate",
+  "name": "Template Customizado de Web API",
+  "shortName": "meutemplate-webapi",
+  "sourceName": "Template",
+  "preferNameDirectory": true,
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  }
+}

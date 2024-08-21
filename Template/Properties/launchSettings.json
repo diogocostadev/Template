@@ -1,0 +1,19 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "applicationUrl": "http://localhost:5107",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "SEQ:ENDPOINT": "ENDERECO SEQ",
+        "PROJETO:NOME": "2_52-Dados_Samplemed",
+        "SEQ:NOMESERVICO": "2_52-Dados_Samplemed",
+        "SEQ:APIKEY": "EDt0rErR4VOjVKV6DrkX"
+      }
+    }
+  }
+}
