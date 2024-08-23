@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Template.Contratos.DTOs.Entrada;
 using Template.Servicos.Interfaces;
 
 namespace Template.Controllers;
@@ -17,7 +18,11 @@ public class ExemploController : ControllerBase
     }
 
     [HttpGet]
-    [Route("rota-exemplo")]
-    public async Task<IResult> Get() => Results.Ok(await _exemploService.Selecionar());
+    [Route("rota-exemplo-listar")]
+    public async Task<IResult> Listar([FromQuery] string nome) => await _exemploService.Listar(nome);
+    
+    [HttpPost]
+    [Route("rota-exemplo-inserir")]
+    public async Task<IResult> Inserir([FromBody] InserirClienteDto dto) => await _exemploService.Inserir(dto);
     
 }

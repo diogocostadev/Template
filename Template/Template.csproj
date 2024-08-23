@@ -6,6 +6,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
         <PackageType>Template</PackageType>
+        <IsPackable>true</IsPackable>
     </PropertyGroup>
 
     <ItemGroup>
@@ -37,13 +38,6 @@
         <Link>.dockerignore</Link>
       </Content>
       <Content Include=".template.config\template.json" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Contratos\DTOs\Entrada\" />
-      <Folder Include="Contratos\DTOs\Saida\" />
-      <Folder Include="Contratos\Modelos\" />
-      <Folder Include="Util\Mappeadores\" />
     </ItemGroup>
 
 </Project>

@@ -3,8 +3,8 @@
   "author": "Diogo Costa",
   "classifications": [ "WebAPI", "ASP.NET Core", "Custom", "C#"],
   "identity": "DiogoCosta.WebApiTemplate",
-  "name": "Template Customizado de Web API",
-  "shortName": "meutemplate-webapi",
+  "name": "Web API (Controllers) - Didáticos - PT-BR",
+  "shortName": "webapi-controllers-didaticos",
   "sourceName": "Template",
   "preferNameDirectory": true,
   "tags": {
